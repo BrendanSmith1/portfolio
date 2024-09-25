@@ -3,6 +3,8 @@ body {
   background: #f0f0f0;
 }
 
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
 .main {
   margin-left: 250px; /* Same as the width of the sidenav */
   padding: 0px 10px;
