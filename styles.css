@@ -1,7 +1,6 @@
 body {
   margin: 0;
   background: #f0f0f0;
-  text-align: center;
 }
 
 .main {
@@ -20,6 +19,7 @@ body {
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 60px; /* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  text-align: center;
 }
 
 .sidenav a {
@@ -34,4 +34,6 @@ body {
   color: #f1f1f1;
 }
 
-@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+@media only screen and (max-width: 600px) {
+  #main {margin-left: 0}
+}
