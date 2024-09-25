@@ -36,6 +36,14 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
   color: #818181;
 }
 
+.bar-item {
+  width: 100%;
+  padding:8px 16px;
+  border:none;
+  display:block;
+  outline:0
+}
+
 .margin-right {
   margin-right: 12px;
 }
